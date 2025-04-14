@@ -1,4 +1,4 @@
-From nginx
-Maintainer Name:Hyma
+FROM nginx
+MAINTAINER Name:Hyma
 LABEL this is my first Dockerfile
-Copy hyma.html /usr/share/nginx/html
+COPY hyma.html /usr/share/nginx/html
